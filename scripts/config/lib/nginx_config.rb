@@ -9,7 +9,7 @@ class NginxConfig
     clean_urls: false,
     https_only: false,
     worker_connections: 512,
-    resolver: 172.16.0.23
+    resolver: "172.16.0.23"
   }
 
   def initialize(json_file)
